@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe CaesarCipher do
+describe CeasarCipher do
   subject { described_class }
   context "args: 'Testowy Tekst'" do
     specify { expect(subject.new('Testowy Tekst').perform).to eq "Grfgbjl Grxfg" }

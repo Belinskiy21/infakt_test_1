@@ -14,7 +14,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require_relative '../caesar_cipher'
+require_relative '../ceasar_cipher'
 require_relative '../passed_or_failed'
 
 RSpec.configure do |config|
